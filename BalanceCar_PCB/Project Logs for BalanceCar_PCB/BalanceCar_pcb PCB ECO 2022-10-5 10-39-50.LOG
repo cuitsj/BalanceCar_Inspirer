@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=12V Pin=D6-2
+Added Pin To Net: NetName=12V Pin=D6-1
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=NetD6_2 Pin=L2-2
+Added Pin To Net: NetName=NetD6_2 Pin=U7-1
+Added Net: Name=NetD6_2
+Added Room: Name=BalanceCar_sch

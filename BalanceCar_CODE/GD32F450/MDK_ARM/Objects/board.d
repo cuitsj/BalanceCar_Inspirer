@@ -1,0 +1,11 @@
+.\objects\board.o: RTE\RTOS\board.c
+.\objects\board.o: D:\Keilv5_Packs\RealThread\RT-Thread\3.1.5\include\rthw.h
+.\objects\board.o: D:\Keilv5_Packs\RealThread\RT-Thread\3.1.5\include\rtthread.h
+.\objects\board.o: .\RTE\RTOS\rtconfig.h
+.\objects\board.o: D:\Keilv5_Packs\RealThread\RT-Thread\3.1.5\include\rtdebug.h
+.\objects\board.o: D:\Keilv5_Packs\RealThread\RT-Thread\3.1.5\include\rtdef.h
+.\objects\board.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\board.o: D:\Keilv5_Packs\RealThread\RT-Thread\3.1.5\include\rtservice.h
+.\objects\board.o: ..\SYS\systick.h
+.\objects\board.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\board.o: ..\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h

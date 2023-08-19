@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Schematic Document [BalanceCar_sch.SchDoc]
+   Generated File[Bill of Materials-BalanceCar_sch.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:38:50 On 2022/10/5

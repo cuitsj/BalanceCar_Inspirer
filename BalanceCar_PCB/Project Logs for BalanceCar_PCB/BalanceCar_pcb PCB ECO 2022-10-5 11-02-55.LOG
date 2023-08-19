@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=ISP_TX Pin=U9-47
+Removed Pin From Net: NetName=ISP_RX Pin=U9-48
+Added Pin To Net: NetName=ISP_TX Pin=U9-78
+Added Pin To Net: NetName=ISP_RX Pin=U9-79
+Added Room: Name=BalanceCar_sch

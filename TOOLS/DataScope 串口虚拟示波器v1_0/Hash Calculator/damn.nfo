@@ -1,0 +1,137 @@
+      м                                                               ммм      
+   мпп                                                               п   ппм   
+  он                                                                       ол  
+_  плмммм      ___    __________ _    м    __________ _  м  ______ _    ммлп _ 
+     пппплллллмммм А           мммммлм ллммм          ммлн  м        млллВА    
+  ммллллммм пплллллВм  мммлллппппллллллоллллллм   мллллллмллллллм  АВллллн     
+   олллллл      пллллмлллллм     олллллпллллллллмлллллллВоллллллллм оллллВА    
+   олллллл       олллнлллллВА мммллллллнлллллл плп ллллллнлллллл пллмоллллн    
+   олллллл      мллллАВллллллппппллллллнВллллл     ллллллнВллллл   пллллллВА   
+мммолллллВ мм мВллллнолллллл ммм лллллВолллллВ ммм Блллллолллллл мммоллллллнммм
+    ллллллнВВолллллВАолллллл ВВВАВлллллоллллллнВВВ оллллВолллллБ ВВВ лллллВА   
+    ллллллнБ ВллллллнАВллллВАБББ оллллнАВлллллнБББ оллллн ллллллн ББ лллллн    
+   АВлллллнА оллллллБ АВллллнААА олллБ  АВллллнААА олллВА Блллллн АА Вллллн    
+   ппплппллллмлллллллн Аплллн А мллпп    АплллнА  мллппА ппплпппппА оллллВА    
+_ ________   ппппВлллВА _ пплм п _sRT!CRo_  пплм п ___________ _  ммллВппА _   
+           А     Апллн        п                 п               млп   А        
+           А       ол         А                А               он А            
+           А        пм        А                А                п А            
+                              А                А                               
+           А                                   А                  А            
+                              А    PRESENTS                                    
+            А                                  А                 А             
+                                                                 А             
+            А             DAMN Hash Calculator v1.5.1
+
+    мммммммм  мммммммммммммммммммммммммммммммммммммммммммммммммм  ммммммммм 
+   еЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭИ жФ ФФФФ Ф ФФЭЭФФ Ф ФФФФФФ Ф ФФФФФФ Ф ФФЭЭФФ Ф ФФФФ ФП 
+ кФДн  RELEASE INFO  оУФН ппппппппппппппппппппппппппппппппппппппппппппппппп РП
+ л дЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭО                                                      л
+ л                                                                           л
+ л   [ Program ............................. DAMN Hash Calculator v1.5.1 ]   л
+ л   [ Type ................ A tool for calculating cryptographic hashes ]   л
+ л   [ OS .................................................... Win9xNT2k ]   л
+ л   [ By ......................................................... DAMN ]   л
+ л   [ Homepage ....................... http://www.damn.to/hashcalc.html ]   л
+ л                                                                           л
+ л         [ Coded by .................................. Ivanopulo ]         л
+ л         [ Release date ........................... Dec 22, 2000 ]         л
+ л                                                                           л
+ РП ммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммм кй
+  ГеЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭИ жФ ФФФФ Ф ФФЭЭФФ Ф ФФФФФФ Ф ФФФФФФ Ф ФФЭЭФФ Ф ФФФФ ФД 
+ кСДн  DESCRIPTION   оУФН ппппппппппппппппппппппппппппппппппппппппппппппппп РП
+ л дЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭО                                                      л
+ л                                                                           л
+ л   Surprisingly,  this  tool  calculates cryptographic hashes. I put the   л
+ л   most  commonly  used hash algorithms in it, but who knows, maybe I'll   л
+ л   add more later. Interface is pretty straightforward, so I'm not gonna   л
+ л   get  into  all  the  boring  details  of  using it (but see some tips   л
+ л   below).                                                                 л
+ л                                                                           л
+ л   Calculation of *all* the supported hashes for a 100M file takes about   л
+ л   5 minutes on Celeron 400.                                               л
+ л                                                                           л
+ л   Features                                                                л
+ л                                                                           л
+ л   - Hashes supported:                                                     л
+ л     - MD5                                                                 л
+ л     - SHA-160 (SHA-1), SHA-256, SHA-384, SHA-512                          л
+ л     - RIPEMD-160                                                          л
+ л     - HAVAL (3, 4, 5 passes; 128, 160, 192, 224, 256 bits)                л
+ л     - Good  old  CRC-32  (although  very  insecure,  but  it's  a  hash   л
+ л       function, too)                                                      л
+ л   - Two modes of operation: you can take hash of file or text string      л
+ л   - Files up to 4,294,967,295 bytes length can be processed               л
+ л   - Drag'n'Drop support                                                   л
+ л   - Calculation  is  performed by separate thread and can be stopped at   л
+ л     any  time  by user. The thread runs at low priority, so you're able   л
+ л     to work with other programs while hashing big files                   л
+ л   - Sound signal after lengthy operations                                 л
+ л                                                                           л
+ л   Changes since v1.5.0                                                    л
+ л   - Fixed:  Calculate  button was disabled if all HAVAL hash types were   л
+ л     unchecked.                                                            л
+ л   - Added EULA                                                            л
+ л                                                                           л
+ л   Tips                                                                    л
+ л                                                                           л
+ л   - Program  window  can  be  resized (if you think this tip is stupid,   л
+ л     please  consider the fact that about 1/3 of users usually miss such   л
+ л     things)                                                               л
+ л   - The  most  easy way of hashing a file is to drop it into the window   л
+ л     after checking 'Stay on top' option                                   л
+ л   - Using more hashes takes more time =)                                  л
+ л                                                                           л
+ л   For more info and new versions please visit                             л
+ л   http://www.damn.to/hashcalc.html                                        л
+ л                                                                           л
+ РП ммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммм кй
+  ГеЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭИ жФ ФФФФ Ф ФФЭЭФФ Ф ФФФФФФ Ф ФФФФФФ Ф ФФЭЭФФ Ф ФФФФ ФД 
+ кСДн  VERIFICATION  оУФН ппппппппппппппппппппппппппппппппппппппппппппппппп РП
+ л дЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭО                                                      л
+ л                                                                           л
+ л   Due  to  the  every  day  increasing  amount  of lamers who fake DAMN   л
+ л   releases  ALL  DAMN releases starting from July 1, 2000 are digitally   л
+ л   signed.                                                                 л
+ л                                                                           л
+ л   Download  DAMN  Release Signature Verificator from http://www.damn.to   л
+ л   (about  100K  only)  if  you want to be sure that release you got was   л
+ л   really made by DAMN.                                                    л
+ л                                                                           л
+ л   Don't  use  any  stuff  claiming  to be made by DAMN if it's released   л
+ л   after  July  1,  2000  and doesn't pass verification. Using it can be   л
+ л   dangerous.                                                              л
+ л                                                                           л
+ РП ммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммм кй
+  ГеЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭИ жФ ФФФФ Ф ФФЭЭФФ Ф ФФФФФФ Ф ФФФФФФ Ф ФФЭЭФФ Ф ФФФФ ФД 
+ кСДн   GREETINGS    оУФН ппппппппппппппппппппппппппппппппппппппппппппппппп РП
+ л дЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭО                                                      л
+ л                                                                           л
+ л   Our  greetings  fly  to all groups and crackers who work hard to keep   л
+ л   the Scene alive.                                                        л
+ л                                                                           л
+ л   Personal  greetings  to:  Dimedrol,  Duelist,  egis, Quantico, Recca,   л
+ л   russ97, tE!.                                                            л
+ л                                                                           л
+ РП ммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммм кй
+  ГеЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭИ жФ ФФФФ Ф ФФЭЭФФ Ф ФФФФФФ Ф ФФФФФФ Ф ФФЭЭФФ Ф ФФФФ ФД 
+ кСДн    CONTACT     оУФН ппппппппппппппппппппппппппппппппппппппппппппппппп РП
+ л дЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭО                                                      л
+ л                                                                           л
+ л   Visit our www site at       [ http://www.damn.to ]                      л
+ л   Backup page                 [ http://damn.da.ru  ]                      л
+ л                                                                           л
+ л   Email address for contacts  [ ivanopulo@usa.net  ]                      л
+ л                                                                           л
+ РП ммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммм кй
+  РФ ФФФФФФ Ф ФФЭЭФФ Ф ФФФФФФ Т ФФФФФФ Ф ФФФФФФ Т ФФФФФФ Ф ФФЭЭФФ Ф ФФФФФФ Фй  
+                              Гн (c) 2000 DAMN оГ                              
+                              Р ммммммммммммммм й                              
+
+ Release ID: 3A43BE0C9AC4D1CD
+
+ ----------------------- DAMN RELEASE SIGNATURE START ------------------------
+ DAMN_HashCalc.exe 1 FomBEgcCLnfcKua8Z90spMV1u/8 xEbNTqOCBjujHL+fjD2cbw4slqs
+ license.txt 0 dE7W7y0C3SsHFmqVQg6ZyV4Lk0o 9cyiN8Q1AGZrfxMe4ABG1sbqVLc
+ damn.nfo 0 AlROqTXqCBayPegGVKI0c8dA8EA XrYdM4HVgUjCnyMDrFGa6eDd6qk
+ ------------------------ DAMN RELEASE SIGNATURE END -------------------------

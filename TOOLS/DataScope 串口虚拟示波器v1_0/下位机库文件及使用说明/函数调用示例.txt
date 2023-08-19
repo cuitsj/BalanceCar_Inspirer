@@ -1,0 +1,33 @@
+//MDK下库文件使用例子（stm32 发送10个通道数据）：
+   
+   int main(void)
+   {
+	   unsigned char i;          //计数变量
+	   unsigned char Send_Count; //串口需要发送的数据个数
+		 
+	   uart_init(72,115200);     //串口1初始化， 波特率115200，数据位8，停止位1，无校验位，无流控制
+		 
+           while(1)            
+	   { 		    		    				 
+	    DataScope_Get_Channel_Data( 1.0 , 1 );  //将数据 1.0  写入通道 1
+            DataScope_Get_Channel_Data( 2.0 , 2 );  //将数据 2.0  写入通道 2
+            DataScope_Get_Channel_Data( 3.0 , 3 );  //将数据 3.0  写入通道 3
+            DataScope_Get_Channel_Data( 4.0 , 4 );  //将数据 4.0  写入通道 4
+	    DataScope_Get_Channel_Data( 5.0 , 5 );  //将数据 5.0  写入通道 5
+            DataScope_Get_Channel_Data( 6.0 , 6 );  //将数据 6.0  写入通道 6
+	    DataScope_Get_Channel_Data( 7.0 , 7 );  //将数据 7.0  写入通道 7
+            DataScope_Get_Channel_Data( 8.0 , 8 );  //将数据 8.0  写入通道 8
+	    DataScope_Get_Channel_Data( 9.0 , 9 );  //将数据 9.0  写入通道 9
+            DataScope_Get_Channel_Data( 10.0 , 10); //将数据 10.0 写入通道 10
+ 
+	    Send_Count = DataScope_Data_Generate(10); //生成10个通道的 格式化帧数据，返回帧数据长度
+		
+	    for( i = 0 ; i < Send_Count; i++)  //循环发送,直到发送完毕   
+	    {
+	      while((USART1->SR&0X40)==0);  
+  	      USART1->DR = DataScope_OutPut_Buffer[i]; //从串口丢一个字节数据出去      
+	     }
+  
+            delay_ms(50); //20fps, 帧间隔时间。 不同电脑配置及 USB-TTL 设备的优劣均会影响此时间的长短，建议实测为准。  
+    	   }
+	}

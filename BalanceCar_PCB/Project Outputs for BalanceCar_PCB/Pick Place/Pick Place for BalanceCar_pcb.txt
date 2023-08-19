@@ -1,0 +1,163 @@
+Altium Designer Pick and Place Locations
+G:\BalanceCar\BalanceCar_PCB\Project Outputs for BalanceCar_PCB\Pick Place\Pick Place for BalanceCar_pcb.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       05/10/22
+Time:       11:38
+Revision:   010b7db4d143477b22d2a537c22f1419e6f7acf2
+Variant:    No variations
+Units used: mil
+
+Designator Comment           Layer       Footprint                             Center-X(mil) Center-Y(mil) Rotation Description                                     
+R60        10K               TopLayer    0603-JLC-R                            1555.000      918.307       180      R0603                                           
+D12        LED               TopLayer    0603LED                               1477.138      919.954       90       0603白色LED                                       
+P2         ISP               BottomLayer HDR1X4                                647.000       -599.000      180      "Header, 4-Pin"                                 
+D11        SMAJ15A           TopLayer    SMA(DO-214AC)                         -1935.000     -734.000      90       单向TVS管                                          
+CN7        LiDAR             TopLayer    CONN-TH_4P-P2.50_HX25003-4A           762.999       1037.000      180      "卧式XH2.54 4P"                                   
+CN5        Charge            TopLayer    CONN-TH_4P-P2.54_X8821WR-06S-N2SN     -1691.000     -974.000      360      "卧式XH2.54 4P"                                   
+CN1        BAT_4P            BottomLayer CONN-TH_4P-P2.50_HX25003-4A           -2121.000     -734.000      90       "卧式XH2.54 4P"                                   
+R22        1R                TopLayer    0603-JLC-R                            -1952.555     555.000       90       ""                                              
+U13        BT04-E01          BottomLayer BT04-E02                              1546.937      599.205       90       ""                                              
+U8         MPU9250           TopLayer    QFN24_4X4                             0.000         0.000         0        ""                                              
+U4         OPA2350           TopLayer    SOP_8                                 -674.500      1.063         0        两路运放芯片                                          
+R46        10R               TopLayer    0603-JLC-R                            89.000        -874.742      360      R0603                                           
+R40        10K               BottomLayer 0603-JLC-R                            106.295       -83.662       270      R0603                                           
+R39        10K               BottomLayer 0603-JLC-R                            106.295       82.063        270      R0603                                           
+R36        10K               BottomLayer 0603-JLC-R                            -105.685      -0.800        270      R0603                                           
+R35        10K               BottomLayer 0603-JLC-R                            -105.685      -83.662       270      R0603                                           
+R34        10K               BottomLayer 0603-JLC-R                            -105.685      82.063        270      R0603                                           
+R15        10K               TopLayer    0603-JLC-R                            251.000       514.445       180      R0603                                           
+R14        1K                TopLayer    0603-JLC-R                            251.000       378.445       180      R0603                                           
+R12        10K               TopLayer    0603-JLC-R                            -452.000      64.555        180      R0603                                           
+R11        1K                TopLayer    0603-JLC-R                            -452.000      -66.445       180      R0603                                           
+FPC1       AFC24-S08FIC-00   TopLayer    FPC-SMD_P0.50-8P-QCHF-SM-H2.0         245.500       -874.437      270      间距:0.5mm;触点数量:8;锁定特性:翻盖式;安装类型:卧贴;触点类型:双侧触点/上下接; 
+C21        104               TopLayer    0603-JLC-C                            0.000         -874.742      360      C0603                                           
+C15        104               BottomLayer 0603-JLC-C                            106.295       -0.800        270      C0603                                           
+C14        104               BottomLayer 0603-JLC-C                            0.305         159.323       270      C0603                                           
+C13        0.01uF            BottomLayer 0603-JLC-C                            -0.305        -161.465      90       C0603                                           
+U7         MC34063           TopLayer    SOP-8_L4.9-W3.9-P1.27-LS6.0-BL        -1889.000     763.610       180      ""                                              
+R24        13K               TopLayer    0603-JLC-R                            -2137.000     763.305       360      ""                                              
+R23        1.5K              TopLayer    0603-JLC-R                            -2223.000     763.915       180      ""                                              
+R21        200R              TopLayer    0603-JLC-R                            -1813.445     555.000       90       ""                                              
+L2         150uH             TopLayer    IND-SMD_L5.0-W5.0_SMNR5040            -1626.000     714.000       90       Inductor                                        
+D6         SS34              TopLayer    SMA(DO-214AC)                         -1908.448     1073.000      360      肖特基二极管                                          
+C12        220uF/25V         TopLayer    SMD,6.3X5.8MM                         -1564.819     1030.000      360      贴片铝电解电容SMD,6.3x5.8mm                            
+C11        104               TopLayer    0603-JLC-C                            -2051.000     763.305       360      ""                                              
+C10        100pF             TopLayer    0603-JLC-C                            -1893.555     960.000       270      ""                                              
+K2         TS24CA            TopLayer    SW-SMD_TS24CA                         1287.950      -1141.000     180      ""                                              
+K3         TS24CA            TopLayer    SW-SMD_TS24CA                         1957.950      -1141.000     180      ""                                              
+R48        10K               TopLayer    0603-JLC-R                            1622.645      -881.000      270      R0603                                           
+R51        1K                TopLayer    0603-JLC-R                            1622.645      -803.894      270      R0603                                           
+K1         TS24CA            TopLayer    SW-SMD_TS24CA                         1622.950      -1141.000     180      ""                                              
+C22        104               TopLayer    0603-JLC-C                            1623.255      -727.000      90       C0603                                           
+S1         开关                TopLayer    拨动电源开关                                -1938.898     -143.095      90       ""                                              
+USB1       TYPE-C-31-M-31    TopLayer    USB-C-SMD_TYPE-C-31-M-31              2139.000      748.000       90       ""                                              
+C18        1uF               TopLayer    0603-JLC-C                            2192.224      461.842       270      C0603                                           
+C38        104               TopLayer    0603-JLC-C                            2148.000      -54.445       360      C0603                                           
+C37        104               TopLayer    0603-JLC-C                            1623.056      -577.555      180      C0603                                           
+C36        104               TopLayer    0603-JLC-C                            2215.745      -297.842      270      C0603                                           
+C35        104               TopLayer    0603-JLC-C                            1795.555      -85.000       270      C0603                                           
+Y2         8M                TopLayer    3225                                  1883.660      -746.842      180      贴片无源晶振                                          
+Y1         8MHz              TopLayer    3225                                  1288.316      -145.782      270      贴片无源晶振                                          
+U11        STM32F103C8T6     TopLayer    STM32F103C6T6                         1903.000      -372.000      360      单片机                                             
+U10        ME6212C33M5G      TopLayer    ME6212C33M5G                          2186.320      307.842       270      线性稳压3.3V                                        
+U9         GD32F450VIT6      TopLayer    LQFP-100_L14.0-W14.0-P0.50-LS16.0-BL  758.356       -135.511      90       单片机                                             
+U6         HIP4082           TopLayer    HIP4082B                              -757.519      -392.158      270      H桥驱动芯片                                          
+U2         HIP4082           TopLayer    HIP4082B                              -757.519      402.842       90       H桥驱动芯片                                          
+U5         1117-3.3          TopLayer    SOT223                                135.891       1042.057      270      线性稳压3.3V                                        
+U1         TPS5430DDAR       TopLayer    SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP2.0 -1451.000     -59.001       90       DCDC降压芯片                                        
+U3         OPA2350           TopLayer    SOP_8                                 24.000        444.000       360      两路运放芯片                                          
+T2         SS8050            TopLayer    SOT-23                                854.000       453.000       90       NPN三极管                                          
+T1         SS8550            TopLayer    SOT-23                                2024.330      352.854       270      PNP三极管                                          
+R50        100R              TopLayer    0603-JLC-R                            1455.755      -523.000      90       R0603                                           
+R59        10K               TopLayer    0603-JLC-R                            2215.745      -457.842      270      R0603                                           
+R47        100R              TopLayer    0603-JLC-R                            1455.755      -601.000      90       R0603                                           
+R58        10K               TopLayer    0603-JLC-R                            2215.745      -377.842      270      R0603                                           
+R57        1MΩ               TopLayer    0603-JLC-R                            1883.965      -636.858      90       R0603                                           
+R55        10K               TopLayer    0603-JLC-R                            1250.781      156.535       90       R0603                                           
+R53        10K               TopLayer    0603-JLC-R                            778.000       292.055       180      R0603                                           
+R52        100R              TopLayer    0603-JLC-R                            1991.555      -85.000       270      R0603                                           
+R56        1K                TopLayer    0603-JLC-R                            1287.645      -803.894      270      R0603                                           
+R54        10K               TopLayer    0603-JLC-R                            1287.645      -881.000      270      R0603                                           
+R45        1MΩ               TopLayer    0603-JLC-R                            1174.472      -145.759      360      R0603                                           
+R49        10K               TopLayer    0603-JLC-R                            2110.000      -681.555      180      R0603                                           
+R44        10K               TopLayer    0603-JLC-R                            2224.811      -53.603       360      R0603                                           
+R43        10K               TopLayer    0603-JLC-R                            1455.145      -359.000      270      R0603                                           
+R42        10K               TopLayer    0603-JLC-R                            1622.843      -429.445      360      R0603                                           
+R41        1K                TopLayer    0603-JLC-R                            976.000       453.305       180      R0603                                           
+R38        51R               TopLayer    0603-JLC-R                            382.000       1041.752      360      R0603                                           
+R37        22R               TopLayer    0603-JLC-R                            1813.635      432.676       360      R0603                                           
+R33        22R               TopLayer    0603-JLC-R                            1731.000      432.676       360      R0603                                           
+R32        200R              TopLayer    0603-JLC-R                            1437.841      438.781       180      R0603                                           
+R31        1.5K              TopLayer    0603-JLC-R                            2018.035      461.842       270      R0603                                           
+R30        10K               TopLayer    0603-JLC-R                            1229.001      -533.000      270      R0603                                           
+R29        200R              TopLayer    0603-JLC-R                            1515.589      438.781       180      R0603                                           
+R28        1.5K/NC           TopLayer    0603-JLC-R                            1896.482      433.286       180      R0603                                           
+R27        200R              TopLayer    0603-JLC-R                            1593.336      438.781       180      R0603                                           
+R26        0R/NC             TopLayer    0603-JLC-R                            2021.035      239.843       90       R0603                                           
+R25        1.5K              TopLayer    0603-JLC-R                            1896.480      283.397       360      R0603                                           
+R20        10K               TopLayer    0603-JLC-R                            -823.555      -178.000      90       R0603                                           
+R19        33R               TopLayer    0603-RMOS                             -1186.520     -605.000      90       R0603                                           
+R18        33R               TopLayer    0603-RMOS                             -613.186      -605.000      270      R0603                                           
+R16        33R               TopLayer    0603-RMOS                             -899.853      -605.000      90       R0603                                           
+R17        33R               TopLayer    0603-RMOS                             -330.555      -605.000      270      R0603                                           
+R13        10K               TopLayer    0603-JLC-R                            -708.944      180.063       270      R0603                                           
+R9         33R               TopLayer    0603-RMOS                             -336.555      610.000       270      R0603                                           
+R8         33R               TopLayer    0603-RMOS                             -899.853      610.000       90       R0603                                           
+R2         33R               TopLayer    0603-RMOS                             -613.186      610.000       270      R0603                                           
+R1         33R               TopLayer    0603-RMOS                             -1186.520     610.000       90       R0603                                           
+R10        3.24k             TopLayer    0603-JLC-R                            -1541.713     123.520       90       R0603                                           
+R7         10K               TopLayer    0603-JLC-R                            -207.031      514.445       180      R0603                                           
+R6         1K                TopLayer    0603-JLC-R                            -207.031      378.445       180      R0603                                           
+R3         10k               TopLayer    0603-JLC-R                            -1388.713     123.520       90       R0603                                           
+R5         10K               TopLayer    0603-JLC-R                            -912.000      64.555        180      R0603                                           
+R4         1K                TopLayer    0603-JLC-R                            -912.000      -66.445       180      R0603                                           
+Q8         RU3560L           TopLayer    TO-252-3L                             -613.187      -830.158      180      NMOSFET                                         
+Q7         RU3560L           TopLayer    TO-252-3L                             -1186.520     -830.158      180      NMOSFET                                         
+Q6         RU3560L           TopLayer    TO-252-3L                             -326.520      -830.158      180      NMOSFET                                         
+Q5         RU3560L           TopLayer    TO-252-3L                             -899.854      -830.158      180      NMOSFET                                         
+Q4         RU3560L           TopLayer    TO-252-3L                             -899.852      835.842       360      NMOSFET                                         
+Q3         RU3560L           TopLayer    TO-252-3L                             -326.519      835.842       360      NMOSFET                                         
+Q2         RU3560L           TopLayer    TO-252-3L                             -1186.519     835.842       360      NMOSFET                                         
+Q1         RU3560L           TopLayer    TO-252-3L                             -613.186      835.842       360      NMOSFET                                         
+P1         ST_SWD            TopLayer    HDR1X4                                2240.000      -732.000      90       "Header, 4-Pin"                                 
+L1         15UH              TopLayer    IND-SMD_L7.1-W6.6                     -1130.000     -1.000        90       一体成型功率电感                                        
+D10        LED               TopLayer    0603LED                               2225.128      -182.633      90       0603白色LED                                       
+D9         LED               TopLayer    0603LED                               1453.498      -440.862      180      0603白色LED                                       
+D8         1N4148            TopLayer    1206                                  631.500       453.000       180      Diode                                           
+D7         RGB5050           TopLayer    LED-SMD_6P-L5.0-W5.0-FD               1516.001      706.209       270      5050灯珠                                          
+D5         SS34              TopLayer    SMA(DO-214AC)                         -1133.000     -392.158      270      肖特基二极管                                          
+D4         SS34              TopLayer    SMA(DO-214AC)                         -376.500      -392.158      90       肖特基二极管                                          
+D3         SS34              TopLayer    SMA(DO-214AC)                         -376.500      402.842       90       肖特基二极管                                          
+D1         SS34              TopLayer    SMA(DO-214AC)                         -1133.000     402.842       270      肖特基二极管                                          
+D2         SS34              TopLayer    SMA(DO-214AC)                         -1471.448     -279.000      360      肖特基二极管                                          
+CN4        Motor2            BottomLayer CONN-TH_6P-P2.50_X8821WR-06S-N2SN     -753.063      -1175.000     360      "卧式XH2.54 6P"                                   
+CN2        Motor1            BottomLayer CONN-TH_6P-P2.50_X8821WR-06S-N2SN     -759.998      1169.000      180      "卧式XH2.54 6P"                                   
+C34        20pF              TopLayer    0603-JLC-C                            1812.965      -864.842      90       C0603                                           
+C33        104               TopLayer    0603-JLC-C                            1229.001      -447.629      270      C0603                                           
+C32        104               TopLayer    0603-JLC-C                            1229.001      -362.257      270      C0603                                           
+C31        104               TopLayer    0603-JLC-C                            1250.171      392.382       270      C0603                                           
+C30        104               TopLayer    0603-JLC-C                            1250.171      470.129       270      C0603                                           
+C29        104               TopLayer    0603-JLC-C                            955.000       291.445       360      C0603                                           
+C28        104               TopLayer    0603-JLC-C                            522.000       291.445       360      C0603                                           
+C27        104               TopLayer    0603-JLC-C                            344.000       -372.555      360      C0603                                           
+C25        104               TopLayer    0603-JLC-C                            1250.171      79.000        270      C0603                                           
+C24        20pF              TopLayer    0603-JLC-C                            1943.075      -864.630      270      C0603                                           
+C26        104               TopLayer    0603-JLC-C                            1288.255      -727.000      90       C0603                                           
+C23        104               TopLayer    0603-JLC-C                            2109.787      -815.445      360      C0603                                           
+C20        20pF              TopLayer    0603-JLC-C                            1406.403      -77.922       360      C0603                                           
+C19        20pF              TopLayer    0603-JLC-C                            1406.616      -212.980      180      C0603                                           
+C17        104               TopLayer    0603-JLC-C                            2192.224      150.843       90       C0603                                           
+C16        1uF               TopLayer    0603-JLC-C                            2192.224      63.842        90       C0603                                           
+C9         1uF               TopLayer    0603-JLC-C                            -1017.732     -392.462      360      C0603                                           
+C6         1uF               TopLayer    0603-JLC-C                            -493.933      -392.462      360      C0603                                           
+C5         1uF               TopLayer    0603-JLC-C                            -493.721      403.147       180      C0603                                           
+C8         104               TopLayer    0603-JLC-C                            -109.158      1041.752      360      C0603                                           
+C1         1uF               TopLayer    0603-JLC-C                            -1017.519     403.147       180      C0603                                           
+C7         100uF/16V         TopLayer    SMD,6.3X5.3MM                         126.356       733.920       180      6.3*5.3mm铝电解电容                                  
+C4         220uF/25V         TopLayer    SMD,6.3X5.8MM                         -2001.819     332.000       180      贴片铝电解电容SMD,6.3x5.8mm                            
+C3         220uF/16V         TopLayer    SMD,6.3X5.3MM                         -1492.645     329.920       180      6.3*5.3mm铝电解电容                                  
+C2         0.01uf            TopLayer    0603-JLC-C                            -1272.000     -278.695      180      C0603                                           
+B1         GSC9045YB-16R2700 TopLayer    BUZ-SMD_GSC9045YB-16R2700             763.000       719.000       90       无源蜂鸣器                                           
